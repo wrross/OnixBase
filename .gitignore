@@ -1,0 +1,31 @@
+# Ambientes virtuais (Python venv / virtualenv)
+venv/
+env/
+ENV/
+.venv/
+
+# Variaveis de ambiente e segredos (NUNCA enviar ao GitHub)
+.env
+.env.local
+.env.*.local
+
+# Caches e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Arquivos de IDEs e editores de código
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporarios de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs de execucao e depuracao
+*.log
